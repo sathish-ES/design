@@ -1,0 +1,171 @@
+body{
+    background-color: white;
+}
+.bg-sidebar {
+    /* background-color: #563d7c; */
+    background-color: #2827b0;
+    /* #A569BD; */
+    /* rgb(40, 74, 180); */
+    
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    border-radius: 50px;
+}
+.flex-sm-column .nav-link:focus, .flex-sm-column .nav-link:hover {
+    text-decoration: none;
+    background-color: darkblue;
+    border-radius: 25px;
+}
+img.w-50 {
+    border-radius: 30px;
+}
+.bg-sidebar:hover{
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 0px;
+}
+span.mname {
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+.pb-2, .py-2 {
+    padding-bottom: .5rem!important;
+    margin-top: 20px;
+}
+a.fa{
+    color: white;
+    font-size: 30px !important;
+    text-align: center;
+}
+.log-header{
+    color: white !important;
+    font-weight: 700 !important;
+}
+/* main content css Started */
+.serachPart input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+    color: gray;
+  }
+  /* @media screen and (max-width: 600px) {
+    .serachPart input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .serachPart input[type=text] {
+      border: 1px solid #ccc;
+    } */
+.main-content{
+ margin-left: 110px !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:black !important;
+}
+.bg-dark {
+    background-color: transparent !important;
+}
+a.nav-link.header-border {
+    border-bottom: 5px solid white;
+}
+/* card design */
+.card-content {
+    background-color:#f7f7f7;
+     /* #efeff0; */
+}
+.card-outerDesign {
+    background-color: darkblue;
+    /* #532a91; */
+    color: white;
+    border-radius: 20px;
+    height: 180px;
+    margin-top: 10px;
+}
+.card-innerDesign {
+    padding: 20px;
+}
+.card-details {
+    padding: 20px;
+}
+.card-no {
+    margin: 15px 0px 15px 0px;
+}
+/* media query for particular screen */
+@media only screen and (max-width: 1028px) { 
+    .fa{
+        font-size: 30px !important;
+    }
+   
+  }
+  @media only screen and (min-width:758px) and (max-width:1000px)
+  {
+    .bg-sidebar {
+        border-radius: 0px 25px 0px 25px;
+    }
+    .fa{
+        font-size: 25px !important;
+        padding: 15px !important;
+    }
+    .log-header{
+        font-weight: 700 !important;
+        font-size: 12px !important;
+    }
+    span.mname {
+        font-size: 10px !important;
+        font-weight: 700 !important;
+    }
+  }
+  @media only screen and (min-width:576px) and (max-width:757px)
+  {
+    .bg-sidebar {
+        border-radius: 0px 25px 0px 25px;
+    }
+    .fa{
+        font-size: 20px !important;
+        padding: 8px !important;
+    }
+    .log-header{
+        font-weight: 700 !important;
+        font-size: 10px !important;
+    }
+    span.mname {
+        font-size: 8px !important;
+        font-weight: 700 !important;
+    }
+  }
+  @media only screen and (max-width:575px)
+  {
+    .pb-2, .py-2 {
+        padding-bottom: .5rem!important;
+        margin-top: 0px;
+    }
+    .bg-sidebar {
+        background-color: #563d7c;
+        border-radius: 0px !important;
+        width: 100%;
+        z-index: 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .bg-sidebar:hover{
+        overflow-x: auto !important;
+        overflow-y: hidden;
+        border-radius: 0px;
+    }
+    .nav{
+        display: inline-flex !important;
+        flex-wrap: unset !important;
+    }
+    .main-content{
+        margin-left: 10px !important;
+       }
+  }
+  
+  
