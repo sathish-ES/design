@@ -26,7 +26,7 @@
    borderColor: [
     '#3349b0',
    ],
-   borderWidth: 3
+   borderWidth: 2
    }
    ]
    },

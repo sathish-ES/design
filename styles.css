@@ -1,6 +1,34 @@
 body{
     background-color: white;
 }
+.serachPart {
+    padding: 12px 0px 20px 15px;
+}
+.rm-bg{
+    background-color: transparent;
+    border-color : transparent; 
+}
+.sec_nav{
+    color:gray;
+    font-size: 20px;
+    font-weight: 400;
+}
+.icon-menu {
+    padding: 10px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.customer-activity {
+    padding: 27px 0px 22px 23px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #3349b0;
+}
 .bg-sidebar {
     /* background-color: #563d7c; */
     background-color: #2827b0;
@@ -77,16 +105,16 @@ a.nav-link.header-border {
 }
 /* card design */
 .card-content {
-    background-color:#f7f7f7;
-     /* #efeff0; */
+    background-color: #ececec;
+    border-radius: 40px;
 }
 .card-outerDesign {
     background-color: darkblue;
     /* #532a91; */
     color: white;
     border-radius: 20px;
-    height: 180px;
-    margin-top: 10px;
+    height: 200px;
+    margin-top: 100px;
 }
 .card-innerDesign {
     padding: 20px;
