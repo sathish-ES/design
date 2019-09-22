@@ -63,7 +63,7 @@
                 </div>
               </div>
             </div>
-            <canvas id="lineChart"></canvas>
+            <canvas id="lineChart" style="max-height: 300px;"></canvas>
           </section>
 
           <div class="row">
@@ -80,7 +80,7 @@
                 <div class="row m-2">
                       <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
                   <div class="col-sm-7">
-                    <h5>Youtube Music</h5>
+                    <h5 class="payment-clr">Youtube Music</h5>
                     <p>Next payment: 07.09.2019</p>
                   </div>
                   <div class="col-sm-3">
@@ -90,7 +90,7 @@
                 <div class="row m-2">
                     <div class="col-sm-2"><img  class="w-100"src="assets/hotstar.png" alt="youtube"></div>
                     <div class="col-sm-7">
-                      <h5>Youtube Music</h5>
+                      <h5 class="payment-clr">Youtube Music</h5>
                       <p>Next payment: 07.09.2019</p>
                     </div>
                     <div class="col-sm-3">
@@ -100,7 +100,7 @@
                   <div class="row m-2">
                       <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
                   <div class="col-sm-7">
-                    <h5>Youtube Music</h5>
+                    <h5 class="payment-clr">Youtube Music</h5>
                     <p>Next payment: 07.09.2019</p>
                   </div>
                   <div class="col-sm-3">
@@ -122,7 +122,7 @@
                     <div class="row m-2">
                         <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
                     <div class="col-sm-7">
-                      <h5>Youtube Music</h5>
+                      <h5 class="payment-clr">Youtube Music</h5>
                       <p>Next payment: 07.09.2019</p>
                     </div>
                     <div class="col-sm-3">
@@ -132,7 +132,7 @@
                   <div class="row m-2">
                       <div class="col-sm-2"><img  class="w-100"src="assets/hotstar.png" alt="youtube"></div>
                       <div class="col-sm-7">
-                        <h5>Youtube Music</h5>
+                        <h5 class="payment-clr">Youtube Music</h5>
                         <p>Next payment: 07.09.2019</p>
                       </div>
                       <div class="col-sm-3">
@@ -142,7 +142,7 @@
                     <div class="row m-2">
                         <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
                     <div class="col-sm-7">
-                      <h5>Youtube Music</h5>
+                      <h5 class="payment-clr">Youtube Music</h5>
                       <p>Next payment: 07.09.2019</p>
                     </div>
                     <div class="col-sm-3">
@@ -170,55 +170,93 @@
               </div>  
             </div>
             <div class="row card-no">
-                <div class="col-sm-12"> 5235 **** **** 6288</div>
+                <div class="col-sm-3">
+                  <h5>5235</h5>
+                </div>
+                <div class="col-sm-3">
+                  <h5>****</h5>
+                </div>
+                <div class="col-sm-3">
+                  <h5>****</h5>
+                </div>
+                <div class="col-sm-3">
+                  <h5>6288</h5>
+                </div>
               </div>
               <div class="row card-no">
-                  <div class="col-sm-6">
+                  <div class="col-sm-5">
                     <p class="card-exp"> Exp <span class="cad-exp-month"> 03/19</span></p>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-3"></div>
+                  <div class="col-sm-4">
                       <p class="card-cv"> Exp <span class="cad-cv-no">881</span></p>
                   </div>
                 </div>
           </div>
         </div>
         <div class="card-details">
-          <div class="row">
-            <div class="col-sm-6">Balance</div>
-            <div class="col-sm-6">credit Limit</div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">credit Limit</div>
-            <div class="col-sm-6"></div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6">Used</div>
-            <div class="col-sm-6"></div>
-          </div>
-          <div class="row">
+          <div class="row mtb">
             <div class="col-sm-6">
-              <h4 class="card-moreInfo">Card info</h4>
+              <h6 class="float-left clr-st">Balance</h6>
             </div>
-            <div class="col-sm-6">More details</div>
+            <div class="col-sm-6 float-right">
+              <p class="float-right field-value">$ 10000</p>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-sm-6">Used</div>
-            <div class="col-sm-6"></div>
+          <div class="row mtb">
+            <div class="col-sm-6">
+              <h6 class="float-left clr-st">credit Limit</h6>
+            </div>
+            <div class="col-sm-6 float-right">
+                <p class="float-right field-value">$ 10000</p>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-sm-6">Used</div>
-            <div class="col-sm-6"></div>
+          <div class="row mtb">
+            <div class="col-sm-6">
+              <h6 class="float-left clr-st">Used</h6>
+            </div>
+            <div class="col-sm-6 float-right">
+                <p class="float-right field-value">$ 10000</p>
+              </div>
           </div>
-          <div class="row">
-            <div class="col-sm-6">Used</div>
-            <div class="col-sm-6"></div>
+          <div class="row mtb">
+            <div class="col-sm-6">
+              <h4 class="card-moreInfo float-left customer-active">Card info</h4>
+            </div>
+            <div class="col-sm-6">
+              <a href="" class="float-right">More details </a>
+            </div>
+          </div>
+          <div class="row mtb">
+            <div class="col-sm-6">
+              <h6 class="float-left clr-st">Status</h6>
+             </div>
+            <div class="col-sm-6">
+                <p class="float-right field-value">Active</p>
+            </div>
+          </div>
+          <div class="row mtb">
+            <div class="col-sm-6">
+              <h6 class="float-left clr-st">Type of Card</h6> 
+            </div>
+            <div class="col-sm-6">
+                <p class="float-right field-value">Master Card</p>
+            </div>
+          </div>
+          <div class="row mtb">
+            <div class="col-sm-6">
+                <h6 class="float-left clr-st">Currency</h6>
+            </div>
+            <div class="col-sm-6">
+                <p class="float-right field-value">USD</p>
+            </div>
           </div>
           <div class="card-actionButton">
-            <div class="row">
-              <div class="col-sm-6">
+            <div class="row mtb">
+              <div class="col-sm-5">
                 <button>Block Card</button>
               </div>
-              <div class="col-sm-6">
+              <div class="col-sm-7">
                 <button> New Transaction</button>
               </div>
             </div>

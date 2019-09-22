@@ -1,8 +1,9 @@
 body{
     background-color: white;
+    font-family: fantasy;
 }
 .serachPart {
-    padding: 12px 0px 20px 15px;
+    padding: 12px 0px 0px 15px;
 }
 .rm-bg{
     background-color: transparent;
@@ -16,6 +17,9 @@ body{
 .icon-menu {
     padding: 10px;
 }
+.payment-clr {
+    color: blue;
+}
 
 .avatar {
     vertical-align: middle;
@@ -24,7 +28,7 @@ body{
     border-radius: 50%;
   }
 .customer-activity {
-    padding: 27px 0px 22px 23px;
+    padding: 30px 0px 22px 23px;
     font-size: 21px;
     font-weight: bold;
     color: #3349b0;
@@ -114,7 +118,7 @@ a.nav-link.header-border {
     color: white;
     border-radius: 20px;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .card-innerDesign {
     padding: 20px;
@@ -124,6 +128,24 @@ a.nav-link.header-border {
 }
 .card-no {
     margin: 15px 0px 15px 0px;
+}
+.clr-st {
+    font-size: 20px;
+    color: grey;
+    font-weight: 400;
+}
+.customer-active{
+    font-size: 21px;
+    font-weight: bold;
+    color: #3349b0;
+}
+.field-value{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mtb {
+    padding: 7px 0px;
 }
 /* media query for particular screen */
 @media only screen and (max-width: 1028px) { 
