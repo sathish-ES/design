@@ -4,7 +4,7 @@
 <head>
   <title>show cards</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=2">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -26,15 +26,21 @@
       <div class=" col-sm-1  bg-sidebar">
         <div class="py-2">
           <div class="nav flex-sm-column">
-            <a href="" class="nav-link fa fa-ellipsis-h">
+            <a href="" class="nav-link">
+              <img src="assets/YAP logo.png" class="logo" alt="">
             </a>
-            <a href="" class="nav-link fa fa-home" aria-hidden="true"><br><span class="mname">Home</span></a>
-            <a href="" class="nav-link fa fa-user" aria-hidden="true"><br><span class="mname">Contact</span></a>
-            <a href="" class="nav-link fa fa-money" aria-hidden="true"><br><span class="mname">Money</span></a>
-            <a href="" class="nav-link fa fa-stack-exchange" aria-hidden="true"><br><span
+            <img src="" class="nav-link" alt="">
+            <a href="" class="nav-link side-navlink fa fa-home" aria-hidden="true"><br><span
+                class="mname">Home</span></a>
+            <a href="" class="nav-link side-navlink fa fa-user" aria-hidden="true"><br><span
+                class="mname">Contact</span></a>
+            <a href="" class="nav-link side-navlink fa fa-money" aria-hidden="true"><br><span
+                class="mname">Money</span></a>
+            <a href="" class="nav-link side-navlink fa fa-stack-exchange" aria-hidden="true"><br><span
                 class="mname">Message</span></a>
-            <!-- <a href="" class="nav-link fa fa-cog" aria-hidden="true"><br><span class="mname">Settings</span></a> -->
-            <a href="" class="nav-link fa fa-pie-chart" aria-hidden="true"><br><span class="mname">Chart</span></a>
+            <!-- <a href="" class="nav-link side-navlink fa fa-cog" aria-hidden="true"><br><span class="mname">Settings</span></a> -->
+            <a href="" class="nav-link side-navlink fa fa-pie-chart" aria-hidden="true"><br><span
+                class="mname">Chart</span></a>
           </div>
         </div>
       </div>
@@ -44,7 +50,7 @@
         <div class="card-transaction">
           <div class="serachPart">
             <form action="/action_page.php">
-              <button class="rm-bg"  type="submit"><i class="fa fa-search"></i></button>
+              <button class="rm-bg" type="submit"><i class="fa fa-search"></i></button>
               <input type="text" placeholder="Transaction or category" name="search">
 
             </form>
@@ -56,10 +62,10 @@
               </div>
               <div class="col-sm-6">
                 <div class="nav float-right">
-                  <a href="" class="nav-link"><br><span class="sec_nav">Day</span></a>
-                  <a href="" class="nav-link"><br><span class="sec_nav">Week</span></a>
-                  <a href="" class="nav-link"><br><span class="sec_nav">Month</span></a>
-                  <a href="" class="nav-link"><br><span class="sec_nav">Year</span></a>
+                  <a href="" class="nav-link pad0"><br><span class="sec_nav">Day</span></a>
+                  <a href="" class="nav-link pad0"><br><span class="sec_nav">Week</span></a>
+                  <a href="" class="nav-link pad0"><br><span class="sec_nav">Month</span></a>
+                  <a href="" class="nav-link pad0"><br><span class="sec_nav">Year</span></a>
                 </div>
               </div>
             </div>
@@ -74,11 +80,11 @@
                     <h6 class="customer-activity">Payments</h6>
                   </div>
                   <div class="col-sm-6">
-                      <a href="" class="float-right m-4 .more-dg">More</a>
+                    <a href="" class="float-right m-4 .more-dg">More</a>
                   </div>
                 </div>
                 <div class="row m-2">
-                      <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
+                  <div class="col-sm-2"><img class="w-100" src="assets/Arrow Green with white bg.png" alt="youtube"></div>
                   <div class="col-sm-7">
                     <h5 class="payment-clr">Youtube Music</h5>
                     <p>Next payment: 07.09.2019</p>
@@ -88,17 +94,17 @@
                   </div>
                 </div>
                 <div class="row m-2">
-                    <div class="col-sm-2"><img  class="w-100"src="assets/hotstar.png" alt="youtube"></div>
-                    <div class="col-sm-7">
-                      <h5 class="payment-clr">Youtube Music</h5>
-                      <p>Next payment: 07.09.2019</p>
-                    </div>
-                    <div class="col-sm-3">
-                      <h5 class="float-right">-$5</h5>
-                    </div>
+                  <div class="col-sm-2"><img class="w-100" src="assets/Arrow orrange with white bg.png" alt="youtube"></div>
+                  <div class="col-sm-7">
+                    <h5 class="payment-clr">Youtube Music</h5>
+                    <p>Next payment: 07.09.2019</p>
                   </div>
-                  <div class="row m-2">
-                      <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
+                  <div class="col-sm-3">
+                    <h5 class="float-right">-$5</h5>
+                  </div>
+                </div>
+                <div class="row m-2">
+                  <div class="col-sm-2"><img class="w-100" src="assets/Arrow orrange with Ash shadow.png" alt="youtube"></div>
                   <div class="col-sm-7">
                     <h5 class="payment-clr">Youtube Music</h5>
                     <p>Next payment: 07.09.2019</p>
@@ -111,87 +117,87 @@
             </div>
             <div class="col-sm-6">
               <section class="transactions">
-                  <div class="row">
-                      <div class="col-sm-6">
-                          <h6 class="customer-activity">Payments</h6>
-                      </div>
-                      <div class="col-sm-6">
-                          <a href="" class="float-right m-4 .more-dg">More</a>
-                      </div>
-                    </div>
-                    <div class="row m-2">
-                        <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
-                    <div class="col-sm-7">
-                      <h5 class="payment-clr">Youtube Music</h5>
-                      <p>Next payment: 07.09.2019</p>
-                    </div>
-                    <div class="col-sm-3">
-                      <h5 class="float-right">-$5</h5>
-                    </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h6 class="customer-activity">Payments</h6>
                   </div>
-                  <div class="row m-2">
-                      <div class="col-sm-2"><img  class="w-100"src="assets/hotstar.png" alt="youtube"></div>
-                      <div class="col-sm-7">
-                        <h5 class="payment-clr">Youtube Music</h5>
-                        <p>Next payment: 07.09.2019</p>
-                      </div>
-                      <div class="col-sm-3">
-                        <h5 class="float-right">-$5</h5>
-                      </div>
-                    </div>
-                    <div class="row m-2">
-                        <div class="col-sm-2"><img  class="w-100"src="assets/youtube.png" alt="youtube"></div>
-                    <div class="col-sm-7">
-                      <h5 class="payment-clr">Youtube Music</h5>
-                      <p>Next payment: 07.09.2019</p>
-                    </div>
-                    <div class="col-sm-3">
-                      <h5 class="float-right">-$5</h5>
-                    </div>
+                  <div class="col-sm-6">
+                    <a href="" class="float-right m-4 .more-dg">More</a>
                   </div>
+                </div>
+                <div class="row m-2">
+                  <div class="col-sm-2"><img class="w-100" src="assets/Asset 20Arrow Orange shadow.png" alt="youtube"></div>
+                  <div class="col-sm-7">
+                    <h5 class="payment-clr">Youtube Music</h5>
+                    <p>Next payment: 07.09.2019</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <h5 class="float-right">-$5</h5>
+                  </div>
+                </div>
+                <div class="row m-2">
+                  <div class="col-sm-2"><img class="w-100" src="assets/Arrow Green with white bg.png" alt="youtube"></div>
+                  <div class="col-sm-7">
+                    <h5 class="payment-clr">Youtube Music</h5>
+                    <p>Next payment: 07.09.2019</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <h5 class="float-right">-$5</h5>
+                  </div>
+                </div>
+                <div class="row m-2">
+                  <div class="col-sm-2"><img class="w-100" src="assets/Arrow orrange with white bg.png" alt="youtube"></div>
+                  <div class="col-sm-7">
+                    <h5 class="payment-clr">Youtube Music</h5>
+                    <p>Next payment: 07.09.2019</p>
+                  </div>
+                  <div class="col-sm-3">
+                    <h5 class="float-right">-$5</h5>
+                  </div>
+                </div>
               </section>
             </div>
           </div>
         </div>
       </div>
       <div class="col-sm-3 card-content">
-          <div class="nav float-right">
-            <div class="icon-menu">
-              <a href="" class="nav-link fa fa-bell"></a>
-              <a href="" class="nav-link fa fa-cog"></a>
-            </div>
-              <a href="" class="nav-link"><img src="assets/mastercard.png" alt="Avatar" class="avatar"></a>
-            </div>
+        <div class="nav float-left">
+          <div class="icon-menu">
+            <a href="" class="nav-link fa fa-bell"></a>
+            <a href="" class="nav-link fa fa-cog"></a>
+          </div>
+          <a href="" class="nav-link pad0"><img src="assets/mastercard.png" alt="Avatar" class="avatar"></a>
+        </div>
         <div class="card-outerDesign">
           <div class="card-innerDesign">
             <div class="row">
               <div class="col-sm-6">
-                <img class="w-50"src="assets/mastercard.png" alt="master-card">
-              </div>  
+                <img class="w-50" src="assets/Mastercard logo.png" alt="master-card">
+              </div>
             </div>
             <div class="row card-no">
-                <div class="col-sm-3">
-                  <h5>5235</h5>
-                </div>
-                <div class="col-sm-3">
-                  <h5>****</h5>
-                </div>
-                <div class="col-sm-3">
-                  <h5>****</h5>
-                </div>
-                <div class="col-sm-3">
-                  <h5>6288</h5>
-                </div>
+              <div class="col-sm-3">
+                <h5 class="card-no-font">5235</h5>
               </div>
-              <div class="row card-no">
-                  <div class="col-sm-5">
-                    <p class="card-exp"> Exp <span class="cad-exp-month"> 03/19</span></p>
-                  </div>
-                  <div class="col-sm-3"></div>
-                  <div class="col-sm-4">
-                      <p class="card-cv"> Exp <span class="cad-cv-no">881</span></p>
-                  </div>
-                </div>
+              <div class="col-sm-3">
+                <h5 class="card-no-font">****</h5>
+              </div>
+              <div class="col-sm-3">
+                <h5 class="card-no-font">****</h5>
+              </div>
+              <div class="col-sm-3">
+                <h5 class="card-no-font ">6288</h5>
+              </div>
+            </div>
+            <div class="row card-no">
+              <div class="col-sm-5 pad0">
+                <p class="card-font"> Exp <span> 03/19</span></p>
+              </div>
+              <div class="col-sm-2 pad0"></div>
+              <div class="col-sm-5 pad0">
+                <p class="card-font"> Exp <span>881</span></p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card-details">
@@ -208,7 +214,7 @@
               <h6 class="float-left clr-st">credit Limit</h6>
             </div>
             <div class="col-sm-6 float-right">
-                <p class="float-right field-value">$ 10000</p>
+              <p class="float-right field-value">$ 10000</p>
             </div>
           </div>
           <div class="row mtb">
@@ -216,48 +222,48 @@
               <h6 class="float-left clr-st">Used</h6>
             </div>
             <div class="col-sm-6 float-right">
-                <p class="float-right field-value">$ 10000</p>
-              </div>
+              <p class="float-right field-value">$ 10000</p>
+            </div>
           </div>
           <div class="row mtb">
             <div class="col-sm-6">
               <h4 class="card-moreInfo float-left customer-active">Card info</h4>
             </div>
             <div class="col-sm-6">
-              <a href="" class="float-right">More details </a>
+              <a href="" class="float-right details">More details </a>
             </div>
           </div>
           <div class="row mtb">
             <div class="col-sm-6">
               <h6 class="float-left clr-st">Status</h6>
-             </div>
+            </div>
             <div class="col-sm-6">
-                <p class="float-right field-value">Active</p>
+              <p class="float-right field-value">Active</p>
             </div>
           </div>
           <div class="row mtb">
             <div class="col-sm-6">
-              <h6 class="float-left clr-st">Type of Card</h6> 
+              <h6 class="float-left clr-st details1">Type of Card</h6>
             </div>
             <div class="col-sm-6">
-                <p class="float-right field-value">Master Card</p>
+              <p class="float-right field-value">Master Card</p>
             </div>
           </div>
           <div class="row mtb">
             <div class="col-sm-6">
-                <h6 class="float-left clr-st">Currency</h6>
+              <h6 class="float-left clr-st">Currency</h6>
             </div>
             <div class="col-sm-6">
-                <p class="float-right field-value">USD</p>
+              <p class="float-right field-value">USD</p>
             </div>
           </div>
           <div class="card-actionButton">
             <div class="row mtb">
               <div class="col-sm-5">
-                <button>Block Card</button>
+                <button type="button" class="">Block Card</button>
               </div>
               <div class="col-sm-7">
-                <button> New Transaction</button>
+                <button type="button" class="">New Transaction</button>
               </div>
             </div>
           </div>

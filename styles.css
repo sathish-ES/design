@@ -2,6 +2,12 @@ body{
     background-color: white;
     font-family: fantasy;
 }
+.logo{
+    width: 50px !important;
+}
+.side-navlink{
+    padding: 10px 0px !important;
+}
 .serachPart {
     padding: 12px 0px 0px 15px;
 }
@@ -109,7 +115,7 @@ a.nav-link.header-border {
 }
 /* card design */
 .card-content {
-    background-color: #ececec;
+    background-color: #eeeeee;
     border-radius: 40px;
 }
 .card-outerDesign {
@@ -148,49 +154,94 @@ a.nav-link.header-border {
     padding: 7px 0px;
 }
 /* media query for particular screen */
-@media only screen and (max-width: 1028px) { 
-    .fa{
-        font-size: 30px !important;
+
+@media only screen and (min-width:1080px) and ( max-width:1340px)
+{
+    .main-content{
+        margin-left: 73px !important;
     }
-   
-  }
-  @media only screen and (min-width:758px) and (max-width:1000px)
-  {
-    .bg-sidebar {
-        border-radius: 0px 25px 0px 25px;
+    .card-outerDesign {
+        background-color: darkblue;
+        color: white;
+        border-radius: 15px;
+        height: 170px;
+        margin-top: 70px;
     }
-    .fa{
-        font-size: 25px !important;
-        padding: 15px !important;
+    .card-innerDesign {
+        padding: 15px;
     }
-    .log-header{
-        font-weight: 700 !important;
+    .card-font{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .card-no-font{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width:900px) and ( max-width:1079px)
+{
+    .bg-sidebar{
+        padding-left: 2px !important;
+    }
+    .main-content{
+        margin-left: 70px !important;
+    }
+    .card-outerDesign {
+        background-color: darkblue;
+        color: white;
+        border-radius: 10px;
+        height: 150px;
+        margin-top: 70px;
+    }
+    .card-innerDesign {
+        padding: 10px;
+    }
+    .clr-st {
+        font-size: 12px !important;
+        color: grey;
+        font-weight: 400;
+    }
+    .customer-active{
+        font-size: 12px;
+        font-weight: bold;
+        color: #3349b0;
+    }
+    .details{
         font-size: 12px !important;
     }
-    span.mname {
-        font-size: 10px !important;
-        font-weight: 700 !important;
+    .details1{
+        font-size: 11px !important;
     }
-  }
-  @media only screen and (min-width:576px) and (max-width:757px)
-  {
-    .bg-sidebar {
-        border-radius: 0px 25px 0px 25px;
+    .field-value{
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
     }
-    .fa{
-        font-size: 20px !important;
-        padding: 8px !important;
+    .icon-menu{
+        padding: 0px;
     }
-    .log-header{
-        font-weight: 700 !important;
-        font-size: 10px !important;
+    .pad0 {
+        padding: 5px 0px 5px 15px !important;
     }
-    span.mname {
-        font-size: 8px !important;
-        font-weight: 700 !important;
+    .card-no-font{
+        font-size: 15px;
+        font-weight: 600;
     }
-  }
-  @media only screen and (max-width:575px)
+    .card-font{
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width:899px) and (min-width:576px){
+    .main-content{
+        margin-left: 100px !important;
+    }
+
+    
+    
+}
+  @media only screen and (max-width:700px)
   {
     .pb-2, .py-2 {
         padding-bottom: .5rem!important;
